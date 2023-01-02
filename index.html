@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScII Student Council</title>
+    <link rel="stylesheet" href="./resourse/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="./index.html">
+                    <div class="nav-logo"></div>
+                </a>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-a"><a href="#">Home</a></li>
+                        <li class="nav-a"><a href="./team.html">Team</a></li>
+                        <li class="nav-a"><a href="./form.html">Form</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-mobile-contianer">
+                <div class="topnav" id="nav-tab">
+                    <a href="./index.html" class="active">
+                        <div class="nav-logo"> </div>
+                    </a>
+                    <div id="myLinks">
+                        <a href="#" class="nav-b">Home</a>
+                        <a href="./team.html" class="nav-b">Team</a>
+                        <a href="./form.html" class="nav-b">Forms</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="btn">
+                <a id="click-me" class=button href="#" onclick="clickMe()">Find your language</a>
+            </div>
+            <div class="greeting">
+                <h1 id="message">Hello!</h1>
+            </div>
+            <p>We are ScII Student Council. <br>We represent BAScii and its students</p>
+        </div>
+    </section>
+<!--
+    <section class="hwr">
+        <div class="hwr-container">
+            <div class="hwr-text">
+                <h2>We <br>represent <br>ScII students</h2>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+            </div>
+            <div class="hwr-image">
+                <img src="./resourse/img/hwr-img 1.png" alt="" class="hwr-img">
+                <img src="./resourse/img/hwr-img 3.png" alt="" class="hwr-img grid-row-span-2">
+                <img src="./resourse/img/hwr-img 2.png" alt="" class="hwr-img">
+            </div>
+        </div>
+    </section>
+-->
+    <section class="boxes">
+        <div class="boxes-container">
+            <div class="box-one">
+                <div class="box-one-container">
+                    <h2>We're a team of diligent people.</h2>
+                    <div class="explore-btn">
+                        <div class="explore-btn-hover">
+                            <a href="./team.html" class="explore">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-two">
+                <div class="box-two-container">
+                    <h2>Collection of our activities.</h2>
+                    <div class="explore-btn">
+                        <div class="explore-btn-hover">
+                            <a href="#" class="explore">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <div class="news-container">
+            <h2>What's happening in our faculty</h2>
+            <div class="news-boxes-container">
+                <div class="news-boxes">
+                    <div class="news-box-one news-box">
+                        <a href="#" class="news-heading news-content">BAScii is preparing for the launch of its exclusive merch</a>
+                    </div>
+                    <div class="news-box-two">
+                        <a href="#" class="news-heading news-content">ds</a>
+                    </div>
+                    <div class="news-box-three">
+                        <a href="#" class="news-heading news-content">ds</a>
+                    </div>
+                    <div class="news-box-four">
+                        <a href="#" class="news-heading news-content">ds</a>
+                    </div>
+                    <div class="news-box-five">
+                        <a href="#" class="news-heading news-content">ds</a>
+                    </div>
+                    <div class="news-box-six">
+                        <a href="#" class="news-heading news-content">ds</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="calendar">
+        <div class="calendar-container">
+            <h2>Up coming events</h2>
+<!-- Event 1 -->
+            <div class="event">
+                <div class="event-left">
+                    <div class="event-date">
+                        <h3 class="date">8</h3>
+                        <p class="month">Nov</p>
+                    </div>
+                </div>
+                <div class="event-right">
+                    <h3 class="event-title">BAScii Camp</h3>
+                    <p class="event-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis minima accusantium expedita quisquam odio consequuntur officiis nesciunt neque quibusdam? Delectus ad ipsam officiis voluptate velit adipisci dicta possimus aspernatur.</p>
+                    <div class="event-bottom">
+                        <div class="event-timing">
+                            <img src="./resourse/img/time.png" alt="">
+                            <p class="timing">12:00am</p>
+                        </div>
+                        <div class="event-link">
+                            <a href="#" class="detail-link">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- Event 2 -->
+            <div class="event">
+                <div class="event-left">
+                    <div class="event-date">
+                        <h3 class="date">22</h3>
+                        <p class="month">Dec</p>
+                    </div>
+                </div>
+                <div class="event-right">
+                    <h3 class="event-title">Midterm</h3>
+                    <p class="event-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis minima accusantium expedita quisquam odio consequuntur officiis nesciunt neque quibusdam? Delectus ad ipsam officiis voluptate velit adipisci dicta possimus aspernatur.</p>
+                    <div class="event-bottom">
+                        <div class="event-timing">
+                            <img src="./resourse/img/time.png" alt="">
+                            <p class="timing">09:00am</p>
+                        </div>
+                        <div class="event-link">
+                            <a href="#" class="detail-link">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- Event 3 -->
+            <div class="event">
+                <div class="event-left">
+                    <div class="event-date">
+                        <h3 class="date">30</h3>
+                        <p class="month">May</p>
+                    </div>
+                </div>
+                <div class="event-right">
+                    <h3 class="event-title">Photo Day</h3>
+                    <p class="event-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis minima accusantium expedita quisquam odio consequuntur officiis nesciunt neque quibusdam? Delectus ad ipsam officiis voluptate velit adipisci dicta possimus aspernatur.</p>
+                    <div class="event-bottom">
+                        <div class="event-timing">
+                            <img src="./resourse/img/time.png" alt="">
+                            <p class="timing">14:30am</p>
+                        </div>
+                        <div class="event-link">
+                            <a href="#" class="detail-link">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- Event 4 -->
+            <div class="event">
+                <div class="event-left">
+                    <div class="event-date">
+                        <h3 class="date">28</h3>
+                        <p class="month">Feb</p>
+                    </div>
+                </div>
+                <div class="event-right">
+                    <h3 class="event-title">Birthday Party</h3>
+                    <p class="event-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis minima accusantium expedita quisquam odio consequuntur officiis nesciunt neque quibusdam? Delectus ad ipsam officiis voluptate velit adipisci dicta possimus aspernatur.</p>
+                    <div class="event-bottom">
+                        <div class="event-timing">
+                            <img src="./resourse/img/time.png" alt="">
+                            <p class="timing">10:00am</p>
+                        </div>
+                        <div class="event-link">
+                            <a href="#" class="detail-link">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p>ScII Student Council | School of Integrated Innovation.</p>
+            <p class="footer-credit">Website created by BAScii 003 Nathan Saiyasak</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="./resourse/js/script.js"></script>
+</body>
+</html>
