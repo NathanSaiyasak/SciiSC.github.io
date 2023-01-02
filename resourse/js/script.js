@@ -91,10 +91,33 @@ function clickMe() {
 
 function myFunction() {
     let x = document.getElementById("myLinks");
+    let y = document.getElementById("mobile-nav");
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
       x.style.display = "block";
     }
-    x.style.animation = "slideUp 0.2s";
-  }
+    x.style.animation = "slideUp 0.5s ease";
+    y.style.animation = "slideUp 0.5s ease-in-out 1s"
+}
+
+const appearOptions = {
+    threshold: 1
+};
+const sliders = document.querySelectorAll('.slide-in');
+const faders = document.querySelectorAll('.fade-in');
+const appearOnScroll = new IntersectionObserver (function(entries, appearOnScroll) {
+    entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+            return;
+        } else {
+            entry.target.classList.add('appear');
+            appearOnScroll.unobserve(entry.target);
+        }
+    })
+},
+appearOptions);
+
+faders.forEach(fader => {
+    appearOnScroll.observe(fader);
+});
