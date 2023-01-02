@@ -91,14 +91,12 @@ function clickMe() {
 
 function myFunction() {
     let x = document.getElementById("myLinks");
-    let y = document.getElementById("mobile-nav");
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
       x.style.display = "block";
     }
     x.style.animation = "slideUp 0.5s ease";
-    y.style.animation = "slideUp 0.5s ease-in-out 1s"
 }
 
 const appearOptions = {
