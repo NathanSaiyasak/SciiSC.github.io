@@ -165,17 +165,12 @@ body {
 }
 
 .button:hover {
-    font-size: 1.3vmin;
-    text-decoration: none;
-    border-radius: 15px;
     padding: 8px 10px;
     color: #2d2d2d;
     background-color: #fafafa;
-    transition: 0.2s;
     font-weight: 600;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
     transition-duration: 0.2s;
-
 }
 
 .greeting {
@@ -699,7 +694,18 @@ footer {
     
     .button:hover {
         font-size: 1.8vmin;
-    
+        text-decoration: none;
+        border: 1px solid #fff;
+        border-radius: 15px;
+        padding: 8px 12px;
+        color: #fafafa;
+        background-color: #2D2D2D;
+        text-align: center;
+        width: 100%;
+    }
+
+    .explore-btn-hover:hover::before {
+        display: none;
     }
 
     .boxes,
