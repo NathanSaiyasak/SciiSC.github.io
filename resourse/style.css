@@ -57,7 +57,7 @@ body {
     text-decoration: none;
     color: #fafafa;
     font-weight: 700;
-    
+
 }
 
 .nav-link::before {
@@ -375,8 +375,6 @@ body {
     top: 82.6px;
     padding: 60px 0;
     background-color: #FAFAFA;
-    border-top: 4px solid #2d2d2d;
-    border-bottom: 4px solid #2d2d2d;
 }
 
 .news-container > h2 {
