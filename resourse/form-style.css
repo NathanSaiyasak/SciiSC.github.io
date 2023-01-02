@@ -323,7 +323,7 @@ footer {
 }
 
 @keyframes initial-opacity {
-    0% {
+    10% {
         opacity: 0;
     }
 
