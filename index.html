@@ -4,125 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>ScII Student Council</title>
-    <link rel="stylesheet" href="./resourse/style.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <div class="nav-container">
-                <a href="./index.html">
+                <a href="#hero">
                     <div class="nav-logo"></div>
                 </a>
                 <div class="nav-list">
                     <ul>
-                        <li class="nav-a"><a href="#" class="nav-link">Home</a></li>
-                        <li class="nav-a"><a href="./team.html" class="nav-link">Team</a></li>
-                        <li class="nav-a"><a href="./form.html" class="nav-link">Form</a></li>
+                        <li><a href="./team.html" class="nav-a">Team</a></li>
+                        <li><a href="./event.html" class="nav-a">Event</a></li>
+                        <li><a href="#" class="nav-a">Work with Us</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="nav-mobile-contianer">
-                <div class="topnav" id="nav-tab">
-                    <a href="./index.html" class="active">
-                        <div class="nav-logo"> </div>
-                    </a>
-                    <div id="myLinks">
-                        <a href="#" class="nav-b">Home</a>
-                        <a href="./team.html" class="nav-b">Team</a>
-                        <a href="./form.html" class="nav-b">Forms</a>
-                    </div>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
+        </nav>
+        <div role="navigation" class="mobile-nav">
+            <div class="mobile-nav-container">
+                <div class="mobile-nav-logo">
+                    <a href="./index.html"></a>
+                </div>
+                <div id="menuToggle">
+                    <input type="checkbox" id="prevent"/>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu" class="scrollable">
+                        <li><a href="./team.html" class="nav-b">Team</a></li>
+                        <li><a href="./event.html" class="nav-b">Event</a></li>
+                        <li><a href="#" class="nav-b">Work with Us</a></li>
+                    </ul>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
     <section class="hero">
         <div class="hero-container">
-            <div class="btn">
+            <div class="btn fade-in">
                 <a id="click-me" class=button href="#" onclick="clickMe()">Find your language</a>
             </div>
-            <div class="greeting">
+            <div class="greeting fade-in">
                 <h1 id="message">Hello</h1>
             </div>
-            <p>We are ScII Student Council. <br>We represent BAScii and its students</p>
+    </section>
+    <section class="section-break">
+        <div class="section-break-container-1">
+            <div class="section-break-line-3"></div>
+            <div class="section-break-line-2"></div>
+            <div class="section-break-line-1"></div>
         </div>
     </section>
-<!--
-    <section class="hwr">
-        <div class="hwr-container">
-            <div class="hwr-text">
-                <h2>We <br>represent <br>ScII students</h2>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-            </div>
-            <div class="hwr-image">
-                <img src="./resourse/img/hwr-img 1.png" alt="" class="hwr-img">
-                <img src="./resourse/img/hwr-img 3.png" alt="" class="hwr-img grid-row-span-2">
-                <img src="./resourse/img/hwr-img 2.png" alt="" class="hwr-img">
-            </div>
+    <section class="cloud-bg">
+        <div class="cloud"></div>
+    </section>
+    <section class="who-are-we fade-in">
+        <div class="who-are-we-container">
+            <h2 class="topic-title">We are...</h2>
+            <p>Student Council is an organization lead by students for students. As the chosen student leaders of the school, Student Council works with the school management and administration board, staff members, student body, and local community to represent the concerns and opinions of the student body for the benefit of the school, students, and community. It works to enhance student life, build school spirit and pride, strengthen the overall school and contribute to charitable causes and the community.</p>
         </div>
     </section>
--->
-    <section class="boxes">
-        <div class="boxes-container">
-            <div class="box-one">
-                <div class="box-one-container">
-                    <h2>We're a team of diligent people.</h2>
-                    <div class="explore-btn">
-                        <div class="explore-btn-hover">
-                            <a href="./team.html" class="explore">Explore</a>
-                        </div>
-                    </div>
+    <section class="list-box fade-in">
+        <div class="list-box-container">
+            <div class="list-box-left">
+                <p>We're a team of diligent people.</p>
+                <div class="list-box-explore">
+                    <a href="./team.html">Explore</a>
                 </div>
             </div>
-            <div class="box-two">
-                <div class="box-two-container">
-                    <h2>Collection of our activities.</h2>
-                    <div class="explore-btn">
-                        <div class="explore-btn-hover">
-                            <a href="#" class="explore">Explore</a>
-                        </div>
-                    </div>
+            <div class="list-box-right">
+                <p>Collection of our activities.</p>
+                <div class="list-box-explore">
+                    <a href="./event.html#activities-collection">Explore</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="news fade-in slide-in">
-        <div class="news-container">
-            <h2>What's happening in our faculty</h2>
-            <div class="news-boxes-container">
-                <div class="news-boxes">
-                    <div class="news-box-one news-box">
-                        <a href="#" class="news-heading news-content">BAScii is preparing for the launch of its exclusive merch</a>
-                    </div>
-                    <div class="news-box-two">
-                        <a href="#" class="news-heading news-content">ds</a>
-                    </div>
-                    <div class="news-box-three">
-                        <a href="#" class="news-heading news-content">ds</a>
-                    </div>
-                    <div class="news-box-four">
-                        <a href="#" class="news-heading news-content">ds</a>
-                    </div>
-                    <div class="news-box-five">
-                        <a href="#" class="news-heading news-content">ds</a>
-                    </div>
-                    <div class="news-box-six">
-                        <a href="#" class="news-heading news-content">ds</a>
-                    </div>
-                </div>
-            </div>
+    <section class="section-break">
+        <div class="section-break-container-2">
+            <div class="section-break-line-1"></div>
+            <div class="section-break-line-2"></div>
+            <div class="section-break-line-3"></div>
         </div>
     </section>
-    <section class="calendar">
-        <div class="calendar-container">
+    <section class="upcoming-event">
+        <div class="upcoming-event-container">
             <h2>Up coming events</h2>
 <!-- Event 1 -->
-            <div class="event">
+            <div class="event-index fade-in">
                 <div class="event-left">
                     <div class="event-date">
                         <h3 class="date">8</h3>
@@ -134,8 +109,11 @@
                     <p class="event-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis minima accusantium expedita quisquam odio consequuntur officiis nesciunt neque quibusdam? Delectus ad ipsam officiis voluptate velit adipisci dicta possimus aspernatur.</p>
                     <div class="event-bottom">
                         <div class="event-timing">
-                            <img src="./resourse/img/time.png" alt="">
+                            <img src="./resources/img/time.png" alt="">
                             <p class="timing">12:00am</p>
+                        </div>
+                        <div class="event-location">
+                            <p class="location">Room 301</p>
                         </div>
                         <div class="event-link">
                             <a href="#" class="detail-link">More Detail</a>
@@ -144,7 +122,7 @@
                 </div>
             </div>
 <!-- Event 2 -->
-            <div class="event">
+            <div class="event-index fade-in">
                 <div class="event-left">
                     <div class="event-date">
                         <h3 class="date">22</h3>
@@ -156,7 +134,7 @@
                     <p class="event-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis minima accusantium expedita quisquam odio consequuntur officiis nesciunt neque quibusdam? Delectus ad ipsam officiis voluptate velit adipisci dicta possimus aspernatur.</p>
                     <div class="event-bottom">
                         <div class="event-timing">
-                            <img src="./resourse/img/time.png" alt="">
+                            <img src="./resources/img/time.png" alt="">
                             <p class="timing">09:00am</p>
                         </div>
                         <div class="event-link">
@@ -166,7 +144,7 @@
                 </div>
             </div>
 <!-- Event 3 -->
-            <div class="event">
+            <div class="event-index fade-in">
                 <div class="event-left">
                     <div class="event-date">
                         <h3 class="date">30</h3>
@@ -178,7 +156,7 @@
                     <p class="event-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis minima accusantium expedita quisquam odio consequuntur officiis nesciunt neque quibusdam? Delectus ad ipsam officiis voluptate velit adipisci dicta possimus aspernatur.</p>
                     <div class="event-bottom">
                         <div class="event-timing">
-                            <img src="./resourse/img/time.png" alt="">
+                            <img src="./resources/img/time.png" alt="">
                             <p class="timing">14:30am</p>
                         </div>
                         <div class="event-link">
@@ -188,7 +166,7 @@
                 </div>
             </div>
 <!-- Event 4 -->
-            <div class="event">
+            <div class="event-index fade-in">
                 <div class="event-left">
                     <div class="event-date">
                         <h3 class="date">28</h3>
@@ -200,7 +178,7 @@
                     <p class="event-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis minima accusantium expedita quisquam odio consequuntur officiis nesciunt neque quibusdam? Delectus ad ipsam officiis voluptate velit adipisci dicta possimus aspernatur.</p>
                     <div class="event-bottom">
                         <div class="event-timing">
-                            <img src="./resourse/img/time.png" alt="">
+                            <img src="./resources/img/time.png" alt="">
                             <p class="timing">10:00am</p>
                         </div>
                         <div class="event-link">
@@ -208,15 +186,38 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>    
+        </div>
     </section>
-    <footer>
+    <footer class="fade-in">
         <div class="footer-container">
-            <p>ScII Student Council | School of Integrated Innovation.</p>
-            <p class="footer-credit">Website created by BAScii 003 Nathan Saiyasak</p>
+            <div class="left-footer-container">
+                <img src="./resources/img/logo-nav.png" alt="ScII Student Council Logo">
+                <p class="official-name">ScII Student Council | School of Integrated Innovation.</p>
+                <p class="official-address">4th floor, Chaloem Rajakumari 60 Building, 254 Phayathai Road, Pathumwan, Bangkok 10330 Thailand</p>
+                <p class="footer-credit">Website created by BAScii 003 Nathan Saiyasak</p>
+            </div>
+            <div class="right-footer-container">
+                <div class="email-footer">
+                    <div class="email-icon">
+                        <img src="./resources/img/email-icon-black.png" alt="Email icon">
+                    </div>
+                    <p class="gmail">basciistudentcouncil.official@gmail.com</p>
+                </div>
+                <div class="social-link-footer">
+                    <div class="footer-ig">
+                        <img src="./resources/img/instagram-icon-black.png" alt="Instagram icon">
+                        <p class="ig-account">@basciiscofficial</p>
+                    </div>
+                    <div class="footer-line">
+                        <img src="./resources/img/line-icon.png" alt="Line icon">
+                        <p class="line-account">@637qwgld</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <script src="./resourse/js/script.js"></script>
+    <script src="./resources/js/script.js"></script>
 </body>
 </html>
