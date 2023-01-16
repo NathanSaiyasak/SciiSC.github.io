@@ -15,7 +15,6 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    animation: initial-opacity 1s ease;
 }
 
 body {
@@ -34,6 +33,7 @@ footer,
 .event {
     position: relative;
     top: 71px;
+    animation: initial-opacity 1s ease;
 }
 
 /* -------- Nav Set-up -------- */
@@ -44,6 +44,7 @@ nav {
     left: 0;
     width: 100%;
     z-index: 99;
+    animation: initial-opacity 1s ease;
 }
 
 .nav-container {
