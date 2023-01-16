@@ -15,9 +15,6 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-}
-
-body {
     font-family: Montserrat, Arial, Helvetica;
     color: #2D2D2D;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(140.57deg, #74EBD5 0%, #FEB47B 100.01%);
