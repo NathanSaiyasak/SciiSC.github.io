@@ -597,7 +597,7 @@ footer {
 .email-footer > a {
     text-decoration: none;
     color: #2d2d2d;
-    font-size: 13.9px;
+    font-size: 0.875rem;
     font-weight: 700;
 }
 
@@ -800,7 +800,9 @@ footer {
 
 .ca-box-right-bottom {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
+    margin-top: 40px;
 }
 
 .ca-box-right-bottom > p,
@@ -1009,6 +1011,17 @@ footer {
     .list-box-container {
         flex-wrap: wrap;
     }
+
+/*-----Event-----*/    
+    .ca-box {
+        flex-direction: column;
+    }
+    .ca-box-left {
+        padding: 20px;
+    }
+    .ca-box-right {
+        padding: 20px 30px;
+    }
 }
 
 @media only screen and (max-width: 712px) {
@@ -1143,4 +1156,17 @@ footer {
         padding: 40px 30px 5px;
     }
 
+/*-----Event-----*/
+    .event {
+        padding: 30px;
+    }
+    .upcoming-event-main-container {
+        padding: 0 0 10px;
+        margin-bottom: 30px;
+        background-color: transparent;
+    }
+    .collection-activities-container {
+        padding: 0;
+        background-color: transparent;
+    }
 }
