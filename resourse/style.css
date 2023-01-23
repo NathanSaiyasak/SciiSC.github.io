@@ -994,6 +994,7 @@ footer {
     .the-rest-dept-area {
         grid-template-columns: repeat(3, 1fr);
     }
+    
 }
 
 @media only screen and (max-width: 870px) {
